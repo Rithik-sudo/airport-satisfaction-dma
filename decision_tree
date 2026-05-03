@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<Online boarding &le; 3.5<br/>gini = 0.491<br/>samples = 103904<br/>value = [58879, 45025]<br/>class = Dissatisfied>, fillcolor="#f9e1d0"] ;
+1 [label=<Inflight wifi service &le; 0.5<br/>gini = 0.253<br/>samples = 52429<br/>value = [44627, 7802]<br/>class = Dissatisfied>, fillcolor="#ea975c"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<Inflight entertainment &le; 0.5<br/>gini = 0.009<br/>samples = 1768<br/>value = [8, 1760]<br/>class = Satisfied>, fillcolor="#3a9de5"] ;
+1 -> 2 ;
+3 [label=<gini = 0.0<br/>samples = 8<br/>value = [8, 0]<br/>class = Dissatisfied>, fillcolor="#e58139"] ;
+2 -> 3 ;
+4 [label=<gini = 0.0<br/>samples = 1760<br/>value = [0, 1760]<br/>class = Satisfied>, fillcolor="#399de5"] ;
+2 -> 4 ;
+5 [label=<Inflight wifi service &le; 3.5<br/>gini = 0.21<br/>samples = 50661<br/>value = [44619, 6042]<br/>class = Dissatisfied>, fillcolor="#e99254"] ;
+1 -> 5 ;
+6 [label=<gini = 0.121<br/>samples = 45932<br/>value = [42949, 2983]<br/>class = Dissatisfied>, fillcolor="#e78a47"] ;
+5 -> 6 ;
+7 [label=<gini = 0.457<br/>samples = 4729<br/>value = [1670, 3059]<br/>class = Satisfied>, fillcolor="#a5d3f3"] ;
+5 -> 7 ;
+8 [label=<Type of Travel &le; 0.5<br/>gini = 0.4<br/>samples = 51475<br/>value = [14252, 37223]<br/>class = Satisfied>, fillcolor="#85c3ef"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<Inflight entertainment &le; 3.5<br/>gini = 0.254<br/>samples = 40983<br/>value = [6107, 34876]<br/>class = Satisfied>, fillcolor="#5caeea"] ;
+8 -> 9 ;
+10 [label=<gini = 0.472<br/>samples = 10018<br/>value = [3824, 6194]<br/>class = Satisfied>, fillcolor="#b3daf5"] ;
+9 -> 10 ;
+11 [label=<gini = 0.137<br/>samples = 30965<br/>value = [2283, 28682]<br/>class = Satisfied>, fillcolor="#49a5e7"] ;
+9 -> 11 ;
+12 [label=<Inflight wifi service &le; 4.5<br/>gini = 0.347<br/>samples = 10492<br/>value = [8145, 2347]<br/>class = Dissatisfied>, fillcolor="#eca572"] ;
+8 -> 12 ;
+13 [label=<gini = 0.228<br/>samples = 9373<br/>value = [8145, 1228]<br/>class = Dissatisfied>, fillcolor="#e99457"] ;
+12 -> 13 ;
+14 [label=<gini = 0.0<br/>samples = 1119<br/>value = [0, 1119]<br/>class = Satisfied>, fillcolor="#399de5"] ;
+12 -> 14 ;
+}
