@@ -28,3 +28,13 @@ The script trains two distinct models:
 - **Gaussian Naive Bayes:** Achieved ~80.4% accuracy.
 
 By comparing both models, the Decision Tree is the recommended model for predicting passenger satisfaction with this dataset.
+
+## Visualizations
+
+Here are some key visualizations generated from the analysis:
+
+### Feature Importances (Decision Tree)
+![Feature Importances](feature_importances.png)
+
+### Confusion Matrices
+![Confusion Matrices](confusion_matrices.png)
