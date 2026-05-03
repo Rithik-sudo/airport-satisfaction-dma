@@ -41,3 +41,7 @@ Here are some key visualizations generated from the analysis:
 
 ### Confusion Matrices
 ![Confusion Matrices](confusion_matrices.png)
+
+## Full Analysis
+
+For a complete breakdown of the exploratory data analysis, intermediate steps, and additional visualizations (such as the feature correlation map), please refer to the original Jupyter Notebook: `airport_satisfaction_analysis.ipynb`.
