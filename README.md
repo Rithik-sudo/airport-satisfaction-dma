@@ -1,10 +1,13 @@
 # Airport Passenger Satisfaction Analysis
 
-This repository contains data and code to predict passenger satisfaction for an airline based on various service metrics.
+This repository explores and models airline passenger satisfaction using various flight and demographic metrics. The primary objective is to build a machine learning model that can accurately predict whether a passenger will be **Satisfied** or **Neutral/Dissatisfied** based on their survey responses.
+
+### The Dataset
+The data used in this project is the popular [Airline Passenger Satisfaction dataset from Kaggle](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction). It includes over 100,000 passenger records containing demographic details (like Age and Gender), flight details (like Class and Flight Distance), and 1-5 ratings on various service aspects (like Inflight Wi-Fi, Seat comfort, Cleanliness, and Leg room).
 
 ## Project Structure
 
-- `data/`: Contains the `train.csv` and `test.csv` datasets. (Ignored in git to save space, download from Kaggle)
+- `data/`: Contains the `train.csv` and `test.csv` datasets. *(Note: These files are ignored in Git to save space. You can download them from the Kaggle link above and place them here).*
 - `src/`: Contains the main Python script `train.py` for model training and evaluation.
 - `airport_satisfaction_analysis.ipynb`: Original Jupyter Notebook with the analysis.
 - `decision_tree_viz.pdf`: Generated visualization of the Decision Tree model (depth 3).
